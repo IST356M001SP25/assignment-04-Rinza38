@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+This assignment helped me understand the versatility of pandas and Streamlit's interactive menu. I initially did not have a full understanding of how the state management would complicate the UI logic, breaking the problem into smaller functions helped me a lot. I plan to explore Strealit's layout options more to create a polished data app!
