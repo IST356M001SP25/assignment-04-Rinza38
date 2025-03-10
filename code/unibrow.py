@@ -27,4 +27,3 @@ if file:
 
 st.dataframe(df_show)
 st.dataframe(df_show.describe())
-
