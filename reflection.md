@@ -23,4 +23,8 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
-This assignment helped me understand the versatility of pandas and Streamlit's interactive menu. I initially did not have a full understanding of how the state management would complicate the UI logic, breaking the problem into smaller functions helped me a lot. I plan to explore Strealit's layout options more to create a polished data app!
+Working on this assignment helped me learn how to use Python and Streamlit to build interactive web apps. At first, I struggled with understanding how Streamlit works because it reloads the page every time you make a change, which was confusing. But after completing the different parts of the assignment, I started to get the hang of it. The first task was simple—just processing a single input—but the second and third tasks were harder because I had to work with file uploads and keep track of data between sessions.  
+
+One big challenge was handling Excel files. My code kept failing because I didn’t have the right library installed. After some research, I realized I needed to install `openpyxl` using pip. Once I did that, the code worked, and I learned how important it is to check for dependencies. I also improved my error handling so the app gives clear messages when something goes wrong, like telling the user to install missing packages.  
+
+Overall, this project taught me how to build a functional web app, debug problems, and handle different file types. The most valuable lesson was learning to persist data across sessions using `st.session_state`, which will be useful for future projects. Next time, I’d like to add more features, like better data filtering or visualizations, to make the app even more user-friendly. Even though it was frustrating at times, solving these problems helped me grow as a programmer.
